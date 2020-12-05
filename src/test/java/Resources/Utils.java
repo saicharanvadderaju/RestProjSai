@@ -22,6 +22,7 @@ public class Utils {
 	public static RequestSpecification req;
 	
 	
+	
 	public RequestSpecification requestspecif() throws Exception
 	{
 		if(req==null)
@@ -37,6 +38,13 @@ public class Utils {
 		return req;
 		}
 		return req;
+	}
+	
+	public RequestSpecification weatherReq()
+	{
+		return new RequestSpecBuilder().setBaseUri("https://api.openweathermap.org")
+		.addQueryParam("q", "London").addQueryParam("appid", "f2d515f35c1ce378f9f7a33b31148454")
+		.setContentType(ContentType.JSON).build();
 	}
 	
 	public String getGlobalValues(String key) throws Exception

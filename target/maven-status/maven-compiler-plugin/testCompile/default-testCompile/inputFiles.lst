@@ -1,6 +1,7 @@
-C:\Users\Saicharan\workspaceNEWPROJECT\APIBDDFramework\src\test\java\Resources\TestDataBuild.java
-C:\Users\Saicharan\workspaceNEWPROJECT\APIBDDFramework\src\test\java\Resources\Apiresources.java
-C:\Users\Saicharan\workspaceNEWPROJECT\APIBDDFramework\src\test\java\StepDefinations\StepDefination.java
-C:\Users\Saicharan\workspaceNEWPROJECT\APIBDDFramework\src\test\java\Resources\Utils.java
-C:\Users\Saicharan\workspaceNEWPROJECT\APIBDDFramework\src\test\java\StepDefinations\Hooks.java
-C:\Users\Saicharan\workspaceNEWPROJECT\APIBDDFramework\src\test\java\cucumber\Options\TestRunner.java
+F:\RestProjSai\src\test\java\Resources\Utils.java
+F:\RestProjSai\src\test\java\cucumber\Options\TestRunner.java
+F:\RestProjSai\src\test\java\StepDefinations\WeatherAPI.java
+F:\RestProjSai\src\test\java\Resources\Apiresources.java
+F:\RestProjSai\src\test\java\StepDefinations\Hooks.java
+F:\RestProjSai\src\test\java\StepDefinations\StepDefination.java
+F:\RestProjSai\src\test\java\Resources\TestDataBuild.java

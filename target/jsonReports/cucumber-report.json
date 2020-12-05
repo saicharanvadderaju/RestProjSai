@@ -3,7 +3,65 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-26T05:37:52.692Z",
+        "start_timestamp": "2020-12-05T04:18:25.609Z",
+        "line": 3,
+        "name": "Validate weather details for particular City",
+        "description": "",
+        "id": "weather-validations;validate-weather-details-for-particular-city",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3443005200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has API Details",
+            "match": {
+              "location": "StepDefinations.WeatherAPI.user_has_api_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2219001300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user call getWeatherAPI with GET http request",
+            "match": {
+              "location": "StepDefinations.WeatherAPI.user_call_get_weather_api_with_get_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34997700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate status code",
+            "match": {
+              "location": "StepDefinations.WeatherAPI.validate_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Weather Validations",
+    "description": "",
+    "id": "weather-validations",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Weather.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-05T04:18:31.409Z",
         "line": 13,
         "name": "Verify if place is being successfully added using AddPlaceAPI",
         "description": "",
@@ -13,7 +71,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2131003900,
+              "duration": 793998600,
               "status": "passed"
             },
             "line": 5,
@@ -39,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 1796762800,
+              "duration": 875998800,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 2996800,
+              "duration": 2999300,
               "status": "passed"
             },
             "line": 7,
@@ -79,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 1057006700,
+              "duration": 1597001900,
               "status": "passed"
             },
             "line": 8,
@@ -101,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 1835226000,
+              "duration": 1782998000,
               "status": "passed"
             },
             "line": 9,
@@ -129,11 +187,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-26T05:37:59.607Z",
+        "start_timestamp": "2020-12-05T04:18:36.478Z",
         "before": [
           {
             "result": {
-              "duration": 998000,
               "status": "passed"
             },
             "match": {
@@ -150,7 +207,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2997000,
+              "duration": 1996500,
               "status": "passed"
             },
             "line": 19,
@@ -162,7 +219,7 @@
           },
           {
             "result": {
-              "duration": 1909267400,
+              "duration": 1922855600,
               "status": "passed"
             },
             "line": 20,
@@ -201,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 28981800,
+              "duration": 16001500,
               "status": "passed"
             },
             "line": 22,
